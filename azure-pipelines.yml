@@ -1,4 +1,8 @@
 # Starter pipeline
+- task: katalonTask@0
+  inputs:
+    version: '6.2.2'
+    executeArgs: 'katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\surekhaj\Desktop\repositry\RAM Automation\RAM Automation.prj" -retry=0 -testSuitePath="Test Suites/testsuitone" -executionProfile="default" -browserType="Firefox"'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
